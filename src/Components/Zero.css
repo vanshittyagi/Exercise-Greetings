@@ -1,0 +1,57 @@
+/* Apply styles to the entire body */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #4facfe, #00f2fe); /* Bluish gradient */
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the main container */
+  .zero {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+  }
+  
+  /* Style the text within the container */
+  .texty h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  
+  /* Style the input field */
+  .inpbtn input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  /* Style the buttons */
+  .inpbtn button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6600; /* Orange color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Add a hover effect to the buttons */
+  .inpbtn button:hover {
+    background-color: #ff4500; /* Darker orange on hover */
+  }
+  
